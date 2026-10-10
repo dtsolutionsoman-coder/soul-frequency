@@ -9,6 +9,7 @@
 
   var reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
   var canHover = window.matchMedia("(hover: hover) and (pointer: fine)").matches;
+  var fieldThemeApply = null; /* canvas repaint hook, set by resonanceField */
 
   /* ------------------------------------------------------------------
      1 · RESONANCE FIELD — gold rings breathing like a struck gong.
@@ -28,6 +29,21 @@
     var pointer = { x: -9999, y: -9999, energy: 0 };
     var strike = { r: 0, alpha: 0.55, active: false };
     var stars = [];
+
+    /* theme palette: dark = night rings in brass; light = deep bronze on ivory */
+    var PALETTE = {
+      ring: "198, 161, 91",
+      core: "233, 213, 163",
+      ringBoost: 0,
+      showStars: true,
+      starColor: "#ECE7DC",
+      auroras: [
+        { x: 0.24, y: 0.2, r: 0.55, c: "107, 91, 158", a: 0.085 },
+        { x: 0.78, y: 0.68, r: 0.5, c: "46, 95, 99", a: 0.075 },
+        { x: 0.5, y: 0.42, r: 0.42, c: "198, 161, 91", a: 0.05 }
+      ]
+    };
+    var onFieldTheme = null; /* set by theme manager for static redraw */
 
     function resize() {
       var rect = canvas.parentElement.getBoundingClientRect();
@@ -69,11 +85,9 @@
       ctx.clearRect(0, 0, W, H);
 
       /* --- aurora washes --- */
-      var auroras = [
-        { x: 0.24 + Math.sin(t * 0.00006) * 0.04, y: 0.2, r: 0.55, c: "107, 91, 158", a: 0.085 },  /* violet */
-        { x: 0.78, y: 0.68 + Math.cos(t * 0.00005) * 0.05, r: 0.5, c: "46, 95, 99", a: 0.075 },    /* teal   */
-        { x: 0.5, y: 0.42, r: 0.42, c: "198, 161, 91", a: 0.05 }                                   /* brass  */
-      ];
+      var auroras = PALETTE.auroras;
+      auroras[0].x = 0.24 + Math.sin(t * 0.00006) * 0.04;
+      auroras[1].y = 0.68 + Math.cos(t * 0.00005) * 0.05;
       for (var a = 0; a < auroras.length; a++) {
         var A = auroras[a];
         var g = ctx.createRadialGradient(A.x * W, A.y * H, 0, A.x * W, A.y * H, A.r * Math.max(W, H));
@@ -83,17 +97,19 @@
         ctx.fillRect(0, 0, W, H);
       }
 
-      /* --- starfield --- */
-      for (var s = 0; s < stars.length; s++) {
-        var st = stars[s];
-        var tw = 0.35 + 0.65 * (0.5 + 0.5 * Math.sin(t * 0.001 * st.sp + st.tw));
-        ctx.globalAlpha = 0.5 * tw;
-        ctx.fillStyle = "#ECE7DC";
-        ctx.beginPath();
-        ctx.arc(st.x, st.y, st.r, 0, TAU);
-        ctx.fill();
+      /* --- starfield (night only) --- */
+      if (PALETTE.showStars) {
+        for (var s = 0; s < stars.length; s++) {
+          var st = stars[s];
+          var tw = 0.35 + 0.65 * (0.5 + 0.5 * Math.sin(t * 0.001 * st.sp + st.tw));
+          ctx.globalAlpha = 0.5 * tw;
+          ctx.fillStyle = PALETTE.starColor;
+          ctx.beginPath();
+          ctx.arc(st.x, st.y, st.r, 0, TAU);
+          ctx.fill();
+        }
+        ctx.globalAlpha = 1;
       }
-      ctx.globalAlpha = 1;
 
       /* --- rings --- */
       var px = pointer.x, py = pointer.y;
@@ -103,7 +119,7 @@
         var f = i / (RING_COUNT - 1);
         var base = 34 + f * RMAX;
         var breathe = Math.sin(t * 0.00045 + f * 1.7) * (4 + f * 9);
-        var alpha = 0.34 * (1 - f) + 0.05;
+        var alpha = 0.34 * (1 - f) + 0.05 + PALETTE.ringBoost;
         var lw = 1.15 - f * 0.55;
 
         /* cursor proximity feeds energy into nearby rings */
@@ -126,7 +142,7 @@
           if (k === 0) ctx.moveTo(x, y);
           else ctx.lineTo(x, y);
         }
-        ctx.strokeStyle = "rgba(198, 161, 91, " + alpha.toFixed(3) + ")";
+        ctx.strokeStyle = "rgba(" + PALETTE.ring + ", " + alpha.toFixed(3) + ")";
         ctx.lineWidth = lw;
         ctx.stroke();
       }
@@ -135,7 +151,7 @@
       var pulse = 2.6 + Math.sin(t * 0.0012) * 0.9;
       ctx.beginPath();
       ctx.arc(CX, CY, pulse, 0, TAU);
-      ctx.fillStyle = "rgba(233, 213, 163, 0.9)";
+      ctx.fillStyle = "rgba(" + PALETTE.core + ", 0.9)";
       ctx.fill();
 
       /* --- opening strike ripple --- */
@@ -192,6 +208,59 @@
       setTimeout(function () { strike.active = true; }, 500);
       requestAnimationFrame(loop);
     }
+
+    /* live theme switch for the canvas */
+    fieldThemeApply = function (light) {
+      if (light) {
+        PALETTE.ring = "82, 63, 26";
+        PALETTE.core = "143, 109, 46";
+        PALETTE.ringBoost = 0.10;
+        PALETTE.showStars = false;
+        PALETTE.auroras = [
+          { x: 0.24, y: 0.2, r: 0.55, c: "107, 91, 158", a: 0.07 },
+          { x: 0.78, y: 0.68, r: 0.5, c: "46, 95, 99", a: 0.06 },
+          { x: 0.5, y: 0.42, r: 0.42, c: "168, 130, 63", a: 0.06 }
+        ];
+      } else {
+        PALETTE.ring = "198, 161, 91";
+        PALETTE.core = "233, 213, 163";
+        PALETTE.ringBoost = 0;
+        PALETTE.showStars = true;
+        PALETTE.auroras = [
+          { x: 0.24, y: 0.2, r: 0.55, c: "107, 91, 158", a: 0.085 },
+          { x: 0.78, y: 0.68, r: 0.5, c: "46, 95, 99", a: 0.075 },
+          { x: 0.5, y: 0.42, r: 0.42, c: "198, 161, 91", a: 0.05 }
+        ];
+      }
+      if (reduceMotion) draw(0);
+    };
+  }
+
+  /* ------------------------------------------------------------------
+     1b · THEME — dark is the sanctuary at night, light the morning garden
+  ------------------------------------------------------------------ */
+  function themeManager() {
+    var btn = document.getElementById("themeToggle");
+    if (!btn) return;
+
+    function apply(theme, persist) {
+      if (theme === "light") document.documentElement.setAttribute("data-theme", "light");
+      else document.documentElement.removeAttribute("data-theme");
+      btn.setAttribute("aria-pressed", String(theme === "light"));
+      btn.setAttribute("aria-label", theme === "light" ? "Switch to dark mode" : "Switch to light mode");
+      var meta = document.querySelector('meta[name="theme-color"]');
+      if (meta) meta.setAttribute("content", theme === "light" ? "#F5F1E7" : "#05060B");
+      if (persist) { try { localStorage.setItem("tsf-theme", theme); } catch (e) {} }
+      if (fieldThemeApply) fieldThemeApply(theme === "light");
+    }
+
+    var current = document.documentElement.getAttribute("data-theme") === "light" ? "light" : "dark";
+    apply(current, false);
+
+    btn.addEventListener("click", function () {
+      current = current === "light" ? "dark" : "light";
+      apply(current, true);
+    });
   }
 
   /* ------------------------------------------------------------------
@@ -339,6 +408,7 @@
   /* ------------------------------------------------------------------ */
   document.addEventListener("DOMContentLoaded", function () {
     resonanceField();
+    themeManager();
     navState();
     mobileMenu();
     reveals();

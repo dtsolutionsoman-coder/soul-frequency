@@ -1,0 +1,161 @@
+- generic [ref=f6e4]:
+  - main [ref=f6e6]:
+    - navigation [ref=f6e13]:
+      - generic [ref=f6e14]:
+        - button "Hamburger Site Navigation Icon" [ref=f6e18] [cursor=pointer]
+        - link [ref=f6e23] [cursor=pointer]:
+          - /url: /
+  - region [ref=f6e27]:
+    - generic [ref=f6e30]:
+      - heading "The Soul Frequency" [level=1] [ref=f6e31]
+      - generic [ref=f6e34]:
+        - img "Sound healing instruments and incense for meditation." [ref=f6e38]
+        - heading "Sound Healing" [level=4] [ref=f6e39]
+        - generic [ref=f6e40]:
+          - paragraph [ref=f6e41]: Sound Healing is a holistic wellness practice that uses therapeutic sounds, vibrations, and frequencies to promote relaxation, balance, and overall well-being. Through instruments such as singing bowls, gongs, drums, chimes, and other resonant tools, participants are invited into a deeply restorative state where the mind becomes calm, the body relaxes, and awareness naturally expands.
+          - paragraph [ref=f6e42]: Rather than focusing on doing, sound healing encourages simply being—allowing the body and mind to respond naturally to the experience of sound.
+          - paragraph [ref=f6e43]
+          - paragraph [ref=f6e44]:
+            - strong [ref=f6e46]: Benefits of Sound Healing
+          - paragraph
+          - list [ref=f6e47]:
+            - listitem [ref=f6e48]: Reduces stress and promotes deep relaxation.
+            - listitem [ref=f6e49]: Helps calm the nervous system and quiet mental chatter.
+            - listitem [ref=f6e50]: Promotes better sleep and overall well-being.
+            - listitem [ref=f6e51]: Creates a sense of grounding, harmony, and inner peace.
+            - listitem [ref=f6e52]: Provides a restorative space for rest, reflection, and renewal.
+          - paragraph
+          - paragraph [ref=f6e53]
+          - paragraph [ref=f6e54]: Every sound healing journey is unique. Participants often leave feeling lighter, more centered, refreshed, and deeply connected to themselves.
+  - region [ref=f6e56]:
+    - generic [ref=f6e60]:
+      - generic [ref=f6e62]:
+        - heading "Tibetan Singing bowls" [level=4] [ref=f6e67]
+        - generic [ref=f6e68]:
+          - paragraph [ref=f6e69]: Tibetan Singing Bowls create rich, resonant tones that gently fill the space with soothing vibrations. Their sound is often experienced as calming, grounding, and deeply meditative, helping participants transition from the busyness of everyday life into a state of relaxation and inner awareness.
+          - paragraph [ref=f6e70]
+          - paragraph
+          - list [ref=f6e71]:
+            - listitem [ref=f6e72]: Deeply calms the nervous system and reduces stress.
+            - listitem [ref=f6e73]: Creates a grounding effect that helps participants feel centered and present.
+            - listitem [ref=f6e74]: Encourages meditative states and inner stillness.
+          - paragraph
+      - generic [ref=f6e76]:
+        - heading "HandPan" [level=4] [ref=f6e80]
+        - generic [ref=f6e81]:
+          - paragraph [ref=f6e82]: The Handpan produces melodic, flowing tones that feel both uplifting and calming. Its gentle, harmonic sound often evokes feelings of openness, wonder, and emotional connection, making it a beautiful instrument for relaxation and heart-centered experiences.
+          - paragraph [ref=f6e83]
+          - paragraph
+          - list [ref=f6e84]:
+            - listitem [ref=f6e85]: Opens emotional awareness and encourages gentle emotional release.
+            - listitem [ref=f6e86]: Inspires feelings of joy, creativity, and upliftment.
+            - listitem [ref=f6e87]: Promotes heart-centered connection and emotional harmony.
+          - paragraph
+      - generic [ref=f6e89]:
+        - heading "Crystal Singing Bowl" [level=4] [ref=f6e94]
+        - generic [ref=f6e95]:
+          - paragraph [ref=f6e96]: Crystal Singing Bowls produce pure, clear tones that resonate deeply throughout the body and energy field.
+          - paragraph [ref=f6e97]: Their sound is often described as ethereal and expansive, creating a sense of spaciousness and deep inner stillness.
+          - paragraph [ref=f6e98]
+          - paragraph
+          - list [ref=f6e99]:
+            - listitem [ref=f6e100]: Creates a profound sense of energetic balance and alignment.
+            - listitem [ref=f6e101]: Enhances mental clarity and peaceful awareness.
+            - listitem [ref=f6e102]: Supports deep emotional healing and release.
+          - paragraph
+      - generic [ref=f6e104]:
+        - heading "Gongs" [level=4] [ref=f6e109]
+        - generic [ref=f6e110]:
+          - paragraph [ref=f6e111]: The Gong produces powerful waves of sound that can be felt as much as heard. Its complex frequencies create an immersive sonic experience that encourages deep relaxation and transformation.
+          - paragraph [ref=f6e112]
+          - paragraph
+          - list [ref=f6e113]:
+            - listitem [ref=f6e114]: Facilitates deep restorative relaxation and rest.
+            - listitem [ref=f6e115]: Helps break repetitive thought patterns and mental overactivity.
+            - listitem [ref=f6e116]: Encourages transformative experiences and expanded consciousness.
+          - paragraph
+      - generic [ref=f6e118]:
+        - heading "Bar Chimes" [level=4] [ref=f6e123]
+        - generic [ref=f6e124]:
+          - paragraph [ref=f6e125]: Bar Chimes produce delicate, shimmering tones that move gracefully through the space. Their bright, airy sound often signals transition, awakening awareness, and inviting participants into deeper presence.
+          - paragraph [ref=f6e126]
+          - paragraph
+          - list [ref=f6e127]:
+            - listitem [ref=f6e128]: Clears mental fog and refreshes awareness.
+            - listitem [ref=f6e129]: Brings attention back to the present moment.
+            - listitem [ref=f6e130]: Creates smooth energetic transitions throughout the session.
+          - paragraph
+      - generic [ref=f6e132]:
+        - heading "Shamanic Drum" [level=4] [ref=f6e137]
+        - generic [ref=f6e138]:
+          - paragraph [ref=f6e139]: Shamanic Drums use steady, rhythmic beats that naturally engage the body and mind.
+          - paragraph [ref=f6e140]: Their repetitive rhythms can create a deeply immersive experience that encourages inner exploration and connection.
+          - paragraph [ref=f6e141]
+          - paragraph
+          - list [ref=f6e142]:
+            - listitem [ref=f6e143]: Connects participants with their natural inner rhythm.
+            - listitem [ref=f6e144]: Builds feelings of empowerment and vitality.
+            - listitem [ref=f6e145]: Supports deep introspection and self-discovery.
+          - paragraph
+      - generic [ref=f6e147]:
+        - heading "Tingsha Bell" [level=4] [ref=f6e152]
+        - generic [ref=f6e153]:
+          - paragraph [ref=f6e154]: Tingsha Bells create bright, clear tones that instantly capture attention and bring awareness into the present moment. Their sound is often used to mark beginnings, endings, and transitions within a healing practice.
+          - paragraph [ref=f6e155]
+          - paragraph
+          - list [ref=f6e156]:
+            - listitem [ref=f6e157]: Instantly sharpens awareness and attention.
+            - listitem [ref=f6e158]: Clears distractions and mental clutter.
+            - listitem [ref=f6e159]: Creates sacred pauses that deepen mindfulness.
+          - paragraph
+      - generic [ref=f6e161]:
+        - heading "Tunning Forks" [level=4] [ref=f6e166]
+        - generic [ref=f6e167]:
+          - paragraph [ref=f6e168]: Tuning Forks produce precise frequencies that create subtle yet powerful vibrations. Their focused tones are often used to encourage balance, relaxation, and heightened awareness.
+          - paragraph [ref=f6e169]
+          - paragraph
+          - list [ref=f6e170]:
+            - listitem [ref=f6e171]: Provides focused vibrational stimulation for relaxation.
+            - listitem [ref=f6e172]: Enhances concentration and mental focus.
+            - listitem [ref=f6e173]: Promotes a sense of internal balance and coherence.
+          - paragraph
+      - generic [ref=f6e175]:
+        - heading "Rain Stick" [level=4] [ref=f6e180]
+        - generic [ref=f6e181]:
+          - paragraph [ref=f6e182]: The Rain Stick creates the gentle, flowing sound of falling rain. Its soft and natural tones evoke a sense of calm, comfort, and connection with nature.
+          - paragraph [ref=f6e183]
+          - paragraph
+          - list [ref=f6e184]:
+            - listitem [ref=f6e185]: Evokes a strong sense of calm and serenity.
+            - listitem [ref=f6e186]: Enhances guided visualizations and meditative journeys.
+            - listitem [ref=f6e187]: Strengthens the feeling of connection with nature.
+          - paragraph
+      - generic [ref=f6e189]:
+        - heading "Singing Grail" [level=4] [ref=f6e194]
+        - generic [ref=f6e195]:
+          - paragraph [ref=f6e196]: A Singing Grail produces smooth, resonant tones that blend the qualities of a bowl and a bell. Its sound is gentle yet expansive, creating a nurturing environment for relaxation and reflection.
+          - paragraph [ref=f6e197]
+          - paragraph
+          - list [ref=f6e198]:
+            - listitem [ref=f6e199]: Cultivates a feeling of harmony and wholeness.
+            - listitem [ref=f6e200]: Encourages gentle self-reflection and contemplation.
+            - listitem [ref=f6e201]: Creates a nurturing atmosphere of peace and well-being.
+          - paragraph
+      - generic [ref=f6e203]:
+        - heading "Didgeridoo" [level=4] [ref=f6e208]
+        - generic [ref=f6e209]:
+          - paragraph [ref=f6e210]: The Didgeridoo produces deep, earthy vibrations that resonate strongly throughout the body. Its continuous drone creates a grounding and primal sound experience that encourages connection to the breath and the present moment.
+          - paragraph [ref=f6e211]
+          - paragraph
+          - list [ref=f6e212]:
+            - listitem [ref=f6e213]: Provides powerful grounding through deep vibrations.
+            - listitem [ref=f6e214]: Strengthens body awareness and presence.
+            - listitem [ref=f6e215]: Encourages deep, natural breathing patterns.
+          - paragraph
+  - contentinfo [ref=f6e217]:
+    - paragraph [ref=f6e225]: Copyright © 2026 thesoulfrequency - All Rights Reserved.
+  - generic [ref=f6e226]:
+    - heading "This website uses cookies." [level=4] [ref=f6e227]
+    - paragraph [ref=f6e229]: We use cookies to analyze website traffic and optimize your website experience. By accepting our use of cookies, your data will be aggregated with all other user data.
+    - link "Accept" [ref=f6e231] [cursor=pointer]:
+      - /url: ""

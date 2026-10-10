@@ -1,0 +1,66 @@
+- generic [ref=f11e4]:
+  - main [ref=f11e6]:
+    - navigation [ref=f11e13]:
+      - link [ref=f11e17] [cursor=pointer]:
+        - /url: /
+      - navigation [ref=f11e22]:
+        - list [ref=f11e23]:
+          - listitem [ref=f11e24]:
+            - link "Home" [ref=f11e25] [cursor=pointer]:
+              - /url: /
+          - listitem [ref=f11e26]:
+            - link "Menu" [ref=f11e27] [cursor=pointer]:
+              - /url: /menu
+          - listitem [ref=f11e28]:
+            - link "Instruments" [ref=f11e29] [cursor=pointer]:
+              - /url: /instruments
+          - listitem [ref=f11e30]:
+            - link "Testimonials" [ref=f11e31] [cursor=pointer]:
+              - /url: /testimonials
+          - listitem [ref=f11e32]:
+            - link "About" [ref=f11e33] [cursor=pointer]:
+              - /url: /about
+  - region [ref=f11e35]:
+    - generic [ref=f11e41]:
+      - heading "About Shabnam Oberoii" [level=1] [ref=f11e42]
+      - generic [ref=f11e45]:
+        - paragraph [ref=f11e46]: My journey into sound healing began as a personal path of transformation. Through the power of sound and vibration, I experienced greater stillness, balance, and inner clarity, inspiring me to explore this healing modality more deeply and eventually share it with others. To further my understanding, I trained in sound healing in Rishikesh, where I studied the principles of vibrational healing and holistic wellbeing.
+        - paragraph [ref=f11e47]: I offer personalised sound healing sessions from my private, purpose-built studio nestled in the back garden of my home in Dharamshala. Designed with specialised soundproofing and acoustic treatment, the studio creates an immersive environment where the subtle frequencies of sound can be experienced in their full depth. Surrounded by a beautiful garden and a tranquil pond that attracts birds and butterflies, the space offers a peaceful sanctuary where nature and sound come together to support relaxation and healing.
+        - paragraph [ref=f11e48]: Each session is thoughtfully curated according to the unique needs of the individual or group. Using gongs, Tibetan and crystal singing bowls, shamanic drums, chimes, and other therapeutic instruments, I create sound journeys that help calm the nervous system, release tension, restore balance, and encourage deep rest and renewal.
+        - paragraph [ref=f11e49]: My intention is to provide a nurturing space where people can pause, reconnect with themselves, and experience the restorative power of sound in a setting designed for wellbeing, reflection, and transformation.
+  - region [ref=f11e54]:
+    - generic [ref=f11e56]:
+      - heading "Gallery" [level=2] [ref=f11e58]
+      - generic [ref=f11e67]:
+        - list [ref=f11e69]:
+          - listitem [ref=f11e70]:
+            - img "//img1.wsimg.com/isteam/ip/75c7a8de-48f7-455d-b6e8-c6bd8703b810/soul%20frequency.jpeg/:/rs=w:1300,h:800" [ref=f11e72]
+          - listitem [ref=f11e73]:
+            - img "//img1.wsimg.com/isteam/ip/75c7a8de-48f7-455d-b6e8-c6bd8703b810/gong.jpeg/:/rs=w:1300,h:800" [ref=f11e75]
+          - listitem [ref=f11e76]:
+            - img "//img1.wsimg.com/isteam/ip/75c7a8de-48f7-455d-b6e8-c6bd8703b810/studio.jpeg/:/rs=w:1300,h:800" [ref=f11e78]
+          - listitem [ref=f11e79]:
+            - img "//img1.wsimg.com/isteam/ip/75c7a8de-48f7-455d-b6e8-c6bd8703b810/pond.jpeg/:/rs=w:1300,h:800" [ref=f11e81]
+          - listitem [ref=f11e82]:
+            - img "//img1.wsimg.com/isteam/ip/75c7a8de-48f7-455d-b6e8-c6bd8703b810/studiio.jpeg/:/rs=w:1300,h:800" [ref=f11e84]
+          - listitem
+          - listitem
+          - listitem
+          - listitem [ref=f11e85]:
+            - img "//img1.wsimg.com/isteam/ip/75c7a8de-48f7-455d-b6e8-c6bd8703b810/soul%20frequency.jpeg/:/rs=w:1300,h:800" [ref=f11e87]
+          - listitem [ref=f11e88]:
+            - img "//img1.wsimg.com/isteam/ip/75c7a8de-48f7-455d-b6e8-c6bd8703b810/gong.jpeg/:/rs=w:1300,h:800" [ref=f11e90]
+          - listitem [ref=f11e91]:
+            - img "//img1.wsimg.com/isteam/ip/75c7a8de-48f7-455d-b6e8-c6bd8703b810/studio.jpeg/:/rs=w:1300,h:800" [ref=f11e93]
+          - listitem [ref=f11e94]:
+            - img "//img1.wsimg.com/isteam/ip/75c7a8de-48f7-455d-b6e8-c6bd8703b810/pond.jpeg/:/rs=w:1300,h:800" [ref=f11e96]
+        - generic:
+          - button [ref=f11e97] [cursor=pointer]
+          - button [ref=f11e100] [cursor=pointer]
+  - contentinfo [ref=f11e104]:
+    - paragraph [ref=f11e112]: Copyright © 2026 thesoulfrequency - All Rights Reserved.
+  - generic [ref=f11e113]:
+    - heading "This website uses cookies." [level=4] [ref=f11e114]
+    - paragraph [ref=f11e116]: We use cookies to analyze website traffic and optimize your website experience. By accepting our use of cookies, your data will be aggregated with all other user data.
+    - link "Accept" [ref=f11e118] [cursor=pointer]:
+      - /url: ""

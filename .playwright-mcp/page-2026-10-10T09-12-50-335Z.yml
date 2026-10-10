@@ -1,0 +1,376 @@
+- generic [active] [ref=f14e1]:
+  - link "Skip to content" [ref=f14e2] [cursor=pointer]:
+    - /url: "#main"
+  - banner [ref=f14e3]:
+    - link "The Soul Frequency — home" [ref=f14e4] [cursor=pointer]:
+      - /url: "#top"
+      - generic [ref=f14e10]: The Soul Frequency
+    - navigation "Primary" [ref=f14e11]:
+      - link "Practice" [ref=f14e12] [cursor=pointer]:
+        - /url: "#practice"
+      - link "Instruments" [ref=f14e13] [cursor=pointer]:
+        - /url: "#instruments"
+      - link "Sessions" [ref=f14e14] [cursor=pointer]:
+        - /url: "#sessions"
+      - link "Founder" [ref=f14e15] [cursor=pointer]:
+        - /url: "#founder"
+      - link "Voices" [ref=f14e16] [cursor=pointer]:
+        - /url: "#voices"
+      - link "Sanctuary" [ref=f14e17] [cursor=pointer]:
+        - /url: "#sanctuary"
+    - link "Reserve" [ref=f14e18] [cursor=pointer]:
+      - /url: "#reserve"
+  - main [ref=f14e19]:
+    - generic [ref=f14e20]:
+      - generic [ref=f14e23]:
+        - paragraph [ref=f14e24]: A private sound sanctuary · Kand, Dharamshala
+        - heading [level=1] [ref=f14e25]:
+          - text: Where power comes to
+          - emphasis [ref=f14e26]: stillness
+        - paragraph [ref=f14e27]: Bespoke sound healing in the Himalayas, arranged for one guest at a time. Gongs, quartz and hand-hammered brass — tuned to your nervous system, in a room built for nothing but resonance.
+        - generic [ref=f14e28]:
+          - link "Reserve a private session" [ref=f14e29] [cursor=pointer]:
+            - /url: "#reserve"
+          - link "Enter the practice" [ref=f14e30] [cursor=pointer]:
+            - /url: "#practice"
+      - note [ref=f14e31]:
+        - generic [ref=f14e32]: By appointment only
+        - generic [ref=f14e34]: 11:00 – 18:00
+        - generic [ref=f14e36]: Individuals & private groups
+      - link "Scroll to the practice" [ref=f14e37] [cursor=pointer]:
+        - /url: "#practice"
+    - generic [ref=f14e41]:
+      - generic [ref=f14e42]: Gongs
+      - generic [ref=f14e44]: Crystal singing bowls
+      - generic [ref=f14e46]: Tibetan brass
+      - generic [ref=f14e48]: Handpan
+      - generic [ref=f14e50]: Shamanic drum
+      - generic [ref=f14e52]: Tingsha
+      - generic [ref=f14e54]: Didgeridoo
+      - generic [ref=f14e56]: Tuning forks
+      - generic [ref=f14e58]: Rain stick
+      - generic [ref=f14e60]: Bar chimes
+      - generic [ref=f14e62]: Singing grail
+      - generic [ref=f14e64]: Gongs
+      - generic [ref=f14e66]: Crystal singing bowls
+      - generic [ref=f14e68]: Tibetan brass
+      - generic [ref=f14e70]: Handpan
+      - generic [ref=f14e72]: Shamanic drum
+      - generic [ref=f14e74]: Tingsha
+      - generic [ref=f14e76]: Didgeridoo
+      - generic [ref=f14e78]: Tuning forks
+      - generic [ref=f14e80]: Rain stick
+      - generic [ref=f14e82]: Bar chimes
+      - generic [ref=f14e84]: Singing grail
+    - generic [ref=f14e87]:
+      - generic [ref=f14e88]:
+        - paragraph [ref=f14e89]:
+          - generic [ref=f14e90]: I
+          - text: The practice
+        - heading [level=2] [ref=f14e91]:
+          - text: The loudest life needsthe
+          - emphasis [ref=f14e92]: deepest quiet
+      - generic [ref=f14e93]:
+        - paragraph [ref=f14e94]: You make decisions that ripple through other people’s lives. Sound healing is the opposite of that pressure — a practice of receiving.
+        - paragraph [ref=f14e95]: In a purpose-built acoustic room, therapeutic frequencies guide the nervous system out of vigilance and into a parasympathetic state — the physiology of deep rest, where clarity repairs itself. Nothing is asked of you here. No technique to learn, no effort to make. You lie down; the sound does the work.
+      - paragraph [ref=f14e96]: नाद ब्रह्म · Nāda Brahma — the universe is sound
+      - generic [ref=f14e97]:
+        - article [ref=f14e98]:
+          - heading "Regulation" [level=3] [ref=f14e99]
+          - paragraph [ref=f14e100]: The nervous system downshifts. Cortisol recedes, breath lengthens, and the body remembers a baseline it had forgotten beneath the noise.
+        - article [ref=f14e101]:
+          - heading "Release" [level=3] [ref=f14e102]
+          - paragraph [ref=f14e103]: Vibration reaches what conversation cannot. Repetitive thought patterns loosen; what has been carried, finally settles.
+        - article [ref=f14e104]:
+          - heading "Resonance" [level=3] [ref=f14e105]
+          - paragraph [ref=f14e106]: Guests describe it as coming home — a return to signal beneath the static. Sleep deepens. Attention sharpens. Decisions simplify.
+    - separator [aria-hidden] [ref=f14e107]
+    - generic [ref=f14e109]:
+      - generic [ref=f14e110]:
+        - paragraph [ref=f14e111]:
+          - generic [ref=f14e112]: II
+          - text: The instrumentarium
+        - heading [level=2] [ref=f14e113]:
+          - text: Eleven voices,one
+          - emphasis [ref=f14e114]: frequency
+      - paragraph [ref=f14e115]: Each session is composed, never repeated — instruments chosen for you alone. Hover a voice to meet it.
+      - list [ref=f14e116]:
+        - listitem [ref=f14e117]:
+          - button "The Gongs Felt as much as heard" [expanded] [ref=f14e118] [cursor=pointer]:
+            - generic [ref=f14e119]: The Gongs
+            - generic [ref=f14e120]: Felt as much as heard
+          - generic [ref=f14e129]:
+            - paragraph [ref=f14e130]: Powerful waves of sound and pressure that move through the sternum and the room alike — an immersive, transformative weather.
+            - paragraph [ref=f14e131]: Deep restorative rest · dissolves repetitive thought patterns · expanded consciousness
+        - listitem [ref=f14e132]:
+          - button "Crystal Singing Bowls Pure quartz, ethereal and expansive" [ref=f14e133] [cursor=pointer]:
+            - generic [ref=f14e134]: Crystal Singing Bowls
+            - generic [ref=f14e135]: Pure quartz, ethereal and expansive
+          - generic [ref=f14e142]:
+            - paragraph [ref=f14e143]: Pure, clear tones that resonate through the body and the energy field — light made audible.
+            - paragraph [ref=f14e144]: Energetic balance & alignment · mental clarity · deep emotional healing
+        - listitem [ref=f14e145]:
+          - button "Tibetan Singing Bowls Hand-hammered, seven-metal brass" [ref=f14e146] [cursor=pointer]:
+            - generic [ref=f14e147]: Tibetan Singing Bowls
+            - generic [ref=f14e148]: Hand-hammered, seven-metal brass
+          - generic [ref=f14e155]:
+            - paragraph [ref=f14e156]: Rich, resonant tones with soothing vibrations — calming, grounding, and deeply meditative.
+            - paragraph [ref=f14e157]: Calms the nervous system · reduces stress · grounding & inner stillness
+        - listitem [ref=f14e158]:
+          - button "The Handpan Melodic, flowing, heart-opening" [ref=f14e159] [cursor=pointer]:
+            - generic [ref=f14e160]: The Handpan
+            - generic [ref=f14e161]: Melodic, flowing, heart-opening
+          - generic [ref=f14e170]:
+            - paragraph [ref=f14e171]: Melodic, flowing tones that are uplifting and calming at once — evoking openness, wonder, and emotional connection.
+            - paragraph [ref=f14e172]: Opens emotional awareness · inspires joy & creativity · heart-centred harmony
+        - listitem [ref=f14e173]:
+          - button "The Shamanic Drum The oldest technology of trance" [ref=f14e174] [cursor=pointer]:
+            - generic [ref=f14e175]: The Shamanic Drum
+            - generic [ref=f14e176]: The oldest technology of trance
+          - generic [ref=f14e183]:
+            - paragraph [ref=f14e184]: Steady, rhythmic beats that engage body and mind together — a vessel for inner exploration.
+            - paragraph [ref=f14e185]: Connects with inner rhythm · empowerment & vitality · supports introspection
+        - listitem [ref=f14e186]:
+          - button "Tingsha Bells Bright tones that mark thresholds" [ref=f14e187] [cursor=pointer]:
+            - generic [ref=f14e188]: Tingsha Bells
+            - generic [ref=f14e189]: Bright tones that mark thresholds
+          - generic [ref=f14e196]:
+            - paragraph [ref=f14e197]: Small cymbal bells whose bright, clear tones sound beginnings, endings, and transitions.
+            - paragraph [ref=f14e198]: Sharpens awareness · clears mental clutter · sacred mindful pauses
+        - listitem [ref=f14e199]:
+          - button "Bar Chimes Shimmering transitions" [ref=f14e200] [cursor=pointer]:
+            - generic [ref=f14e201]: Bar Chimes
+            - generic [ref=f14e202]: Shimmering transitions
+          - generic [ref=f14e207]:
+            - paragraph [ref=f14e208]: Delicate, shimmering cascades that signal transition and awaken awareness.
+            - paragraph [ref=f14e209]: Clears mental fog · returns attention to the present · smooths energetic transitions
+        - listitem [ref=f14e210]:
+          - button "Tuning Forks Precise frequencies, subtle power" [ref=f14e211] [cursor=pointer]:
+            - generic [ref=f14e212]: Tuning Forks
+            - generic [ref=f14e213]: Precise frequencies, subtle power
+          - generic [ref=f14e218]:
+            - paragraph [ref=f14e219]: Exact frequencies applied near the body — subtle vibrations with quietly powerful effect.
+            - paragraph [ref=f14e220]: Focused vibrational relaxation · enhanced concentration · internal balance
+        - listitem [ref=f14e221]:
+          - button "The Rain Stick Monsoon, held in a tube of wood" [ref=f14e222] [cursor=pointer]:
+            - generic [ref=f14e223]: The Rain Stick
+            - generic [ref=f14e224]: Monsoon, held in a tube of wood
+          - generic [ref=f14e231]:
+            - paragraph [ref=f14e232]: The gentle sound of falling rain — calm and a deep connection with nature.
+            - paragraph [ref=f14e233]: Calm & serenity · enhanced visualisation · connection with nature
+        - listitem [ref=f14e234]:
+          - button "The Singing Grail Where bowl becomes bell" [ref=f14e235] [cursor=pointer]:
+            - generic [ref=f14e236]: The Singing Grail
+            - generic [ref=f14e237]: Where bowl becomes bell
+          - generic [ref=f14e243]:
+            - paragraph [ref=f14e244]: Smooth, resonant tones blending the qualities of bowl and bell — gentle, yet expansive.
+            - paragraph [ref=f14e245]: Harmony & wholeness · gentle self-reflection · nurtures a peaceful atmosphere
+        - listitem [ref=f14e246]:
+          - button "The Didgeridoo An earthy, primal drone" [ref=f14e247] [cursor=pointer]:
+            - generic [ref=f14e248]: The Didgeridoo
+            - generic [ref=f14e249]: An earthy, primal drone
+          - generic [ref=f14e257]:
+            - paragraph [ref=f14e258]: Deep, earthy vibrations and a grounding, primal drone — the oldest wind instrument on earth.
+            - paragraph [ref=f14e259]: Powerful grounding · body awareness & presence · deep natural breathing
+    - separator [aria-hidden] [ref=f14e260]
+    - generic [ref=f14e262]:
+      - generic [ref=f14e263]:
+        - paragraph [ref=f14e264]:
+          - generic [ref=f14e265]: III
+          - text: A private session
+        - heading [level=2] [ref=f14e266]:
+          - text: Composed for you,never
+          - emphasis [ref=f14e267]: repeated
+      - generic [ref=f14e268]:
+        - article [ref=f14e269]:
+          - paragraph [ref=f14e270]: "01"
+          - generic [ref=f14e271]:
+            - heading "Arrival" [level=3] [ref=f14e272]
+            - paragraph [ref=f14e273]: Tea in the garden. A quiet conversation about what you are carrying — physical, emotional, energetic — and what you want from the silence.
+        - article [ref=f14e274]:
+          - paragraph [ref=f14e275]: "02"
+          - generic [ref=f14e276]:
+            - heading "Tuning" [level=3] [ref=f14e277]
+            - paragraph [ref=f14e278]: "Your session is composed around you: instruments, frequencies and sequence chosen for your nervous system — a soundscore, not a playlist."
+        - article [ref=f14e279]:
+          - paragraph [ref=f14e280]: "03"
+          - generic [ref=f14e281]:
+            - heading "Immersion" [level=3] [ref=f14e282]
+            - paragraph [ref=f14e283]: You lie down. The lights lower. Gongs and bowls move through the purpose-built room — vibration you feel in the chest, stillness you feel everywhere.
+        - article [ref=f14e284]:
+          - paragraph [ref=f14e285]: "04"
+          - generic [ref=f14e286]:
+            - heading "Return" [level=3] [ref=f14e287]
+            - paragraph [ref=f14e288]: Silence, then tea. Guidance for carrying the state back into a loud world. Most guests arrange their return before they leave the garden.
+    - generic [ref=f14e290]:
+      - generic [ref=f14e291]:
+        - paragraph [ref=f14e292]:
+          - generic [ref=f14e293]: IV
+          - text: Sessions
+        - heading [level=2] [ref=f14e294]:
+          - text: Come with openness.Leave with
+          - emphasis [ref=f14e295]: resonance
+      - generic [ref=f14e296]:
+        - article [ref=f14e297]:
+          - figure [ref=f14e298]:
+            - img "Hand-hammered Tibetan singing bowls" [ref=f14e299]
+          - heading "Tibetan Singing Bowl Healing" [level=3] [ref=f14e300]
+          - paragraph [ref=f14e301]: One hour · ₹1,800
+          - paragraph [ref=f14e302]: Ancient grounding vibrations from hand-hammered bowls travel deep into the body — supporting stress release, emotional stillness, improved sleep, and a profound sense of inner stability. Ideal when life feels heavy or scattered.
+        - article [ref=f14e303]:
+          - figure [ref=f14e304]:
+            - img "The studio arranged for a sound bath immersion" [ref=f14e305]
+          - heading "Sound Bath Immersion" [level=3] [ref=f14e306]
+          - paragraph [ref=f14e307]: One hour · ₹2,500
+          - paragraph [ref=f14e308]: A collective, deeply personal experience. Layered frequencies flow over and through you, allowing the mind to slow, the body to rest, and emotions to surface and release. Many experience deep peace, visions, and a sense of being held by sound.
+        - article [ref=f14e309]:
+          - figure [ref=f14e310]:
+            - img "A quartz crystal singing bowl with its mallet" [ref=f14e311]
+          - heading "Crystal Singing Bowl Healing" [level=3] [ref=f14e312]
+          - paragraph [ref=f14e313]: One hour · ₹1,800
+          - paragraph [ref=f14e314]: Pure quartz creates luminous, high-frequency sound waves that work powerfully on the body — supporting chakra alignment, emotional clarity, mental calm, and an expansion of awareness.
+      - paragraph [ref=f14e315]: Individuals & small groups · every session by appointment only
+    - generic [ref=f14e317]:
+      - figure [ref=f14e318]:
+        - img "Shabnam Oberoi in her studio" [ref=f14e319]
+      - generic [ref=f14e320]:
+        - generic [ref=f14e321]:
+          - paragraph [ref=f14e322]:
+            - generic [ref=f14e323]: V
+            - text: The practitioner
+          - heading "Shabnam Oberoi" [level=2] [ref=f14e324]
+        - paragraph [ref=f14e325]: My journey into sound healing began as a personal path of transformation — through sound and vibration I found stillness, balance, and inner clarity, and was drawn to share it.
+        - paragraph [ref=f14e326]: "I trained in sound healing in Rishikesh, studying the principles of vibrational healing and holistic wellbeing. Today I work from a private, purpose-built studio nestled in the back garden of my home in Dharamshala — designed with specialised soundproofing and acoustic treatment, surrounded by a tranquil pond that draws birds and butterflies. Each session is curated to the individual or group before me: never scripted, never repeated."
+        - blockquote [ref=f14e327]:
+          - paragraph [ref=f14e328]: “My intention is to provide a nurturing space where people can pause, reconnect with themselves, and experience the restorative power of sound.”
+          - generic [ref=f14e329]: — Shabnam Oberoi
+    - separator [aria-hidden] [ref=f14e330]
+    - generic [ref=f14e332]:
+      - generic [ref=f14e333]:
+        - paragraph [ref=f14e334]:
+          - generic [ref=f14e335]: VI
+          - text: Voices
+        - heading [level=2] [ref=f14e336]:
+          - text: What remainsafter the
+          - emphasis [ref=f14e337]: sound
+      - generic [ref=f14e338]:
+        - generic [ref=f14e339]:
+          - blockquote [ref=f14e340]:
+            - paragraph [ref=f14e341]:
+              - text: “I stopped
+              - emphasis [ref=f14e342]: listening
+              - text: — and just felt everything.”
+            - generic [ref=f14e343]: Mini J · London
+          - blockquote:
+            - paragraph: “I could physically feel the frequencies resonating through my body.”
+            - generic: Sushen Popli · Amritsar
+          - blockquote:
+            - paragraph:
+              - text: “More a guided
+              - emphasis: inner journey
+              - text: than a wellness appointment.”
+            - generic: Akanksha Gaur · Amritsar
+          - blockquote:
+            - paragraph:
+              - text: “That was
+              - emphasis: coming home
+              - text: for me.”
+            - generic: Niddhi Nikhanj · Dharamshala
+          - blockquote:
+            - paragraph: “Deeply healing, grounding, and transformative.”
+            - generic: Chandeep Bhatia · Chhattisgarh
+          - blockquote:
+            - paragraph: “Each vibration carried me somewhere I had never been.”
+            - generic: Simple Madan · Gurugram
+        - generic [ref=f14e344]:
+          - button "Previous voice" [ref=f14e345] [cursor=pointer]
+          - tablist "Voices" [ref=f14e348]:
+            - tab "Voice 1" [ref=f14e349] [cursor=pointer]
+            - tab "Voice 2" [ref=f14e350] [cursor=pointer]
+            - tab "Voice 3" [ref=f14e351] [cursor=pointer]
+            - tab "Voice 4" [ref=f14e352] [cursor=pointer]
+            - tab "Voice 5" [ref=f14e353] [cursor=pointer]
+            - tab "Voice 6" [ref=f14e354] [cursor=pointer]
+          - button "Next voice" [ref=f14e355] [cursor=pointer]
+      - paragraph [ref=f14e358]: Guests have travelled from London, Gurugram, Amritsar and beyond — many return with others in tow.
+    - separator [aria-hidden] [ref=f14e359]
+    - generic [ref=f14e361]:
+      - generic [ref=f14e362]:
+        - paragraph [ref=f14e363]:
+          - generic [ref=f14e364]: VII
+          - text: The sanctuary
+        - heading [level=2] [ref=f14e365]:
+          - text: A garden inthe
+          - emphasis [ref=f14e366]: Dhauladhars
+      - generic [ref=f14e367]:
+        - generic [ref=f14e368]:
+          - paragraph [ref=f14e369]: Kand is a quiet village above Dharamshala, in Himachal Pradesh — pine and cedar, monsoon cloud, and the white wall of the Dhauladhar range rising behind the garden.
+          - paragraph [ref=f14e370]: The studio sits within a private garden, purpose-built with specialised soundproofing and acoustic design. Outside, a tranquil pond draws birds and butterflies; inside, the world stops at the door and every vibration is received with remarkable depth and clarity. Kangra Airport (DHM) is a short drive away, with flights from Delhi through the day.
+        - generic [ref=f14e371]:
+          - generic [ref=f14e372]:
+            - term [ref=f14e373]: Studio
+            - definition [ref=f14e374]: The Soul Frequency · private garden, Kand
+          - generic [ref=f14e375]:
+            - term [ref=f14e376]: Valley
+            - definition [ref=f14e377]: Dharamshala · Kangra · Himachal Pradesh
+          - generic [ref=f14e378]:
+            - term [ref=f14e379]: Hours
+            - definition [ref=f14e380]: 11:00 – 18:00 · by appointment only
+          - generic [ref=f14e381]:
+            - term [ref=f14e382]: Arrival
+            - definition [ref=f14e383]: Kangra Airport (DHM), a short drive below the studio
+      - generic "The sanctuary — the room, the garden, the instrument" [ref=f14e384]:
+        - figure "The room" [ref=f14e385]:
+          - img "The purpose-built studio room, prepared for a session" [ref=f14e386]
+        - figure "The garden" [ref=f14e388]:
+          - img "The garden pond beside the studio" [ref=f14e389]
+        - figure "The instrument" [ref=f14e391]:
+          - img "The gong in the studio" [ref=f14e392]
+      - link "Get directions to The Soul Frequency on Google Maps" [ref=f14e394] [cursor=pointer]:
+        - /url: https://maps.google.com/maps?ll=32.214879,76.352677&z=14&t=m
+        - text: Get directions
+    - generic [ref=f14e398]:
+      - generic [ref=f14e399]:
+        - generic [ref=f14e400]:
+          - paragraph [ref=f14e401]:
+            - generic [ref=f14e402]: VIII
+            - text: Reserve
+          - heading [level=2] [ref=f14e403]:
+            - text: Begin witha
+            - emphasis [ref=f14e404]: conversation
+        - paragraph [ref=f14e405]: Sessions are private, and few. Write about what you need — a single immersion, a series, or a private group — and a time will be composed around you.
+        - generic [ref=f14e406]:
+          - link "Message on WhatsApp" [ref=f14e407] [cursor=pointer]:
+            - /url: https://wa.me/919650728366
+          - link "or telephone +91 96507 28366" [ref=f14e410] [cursor=pointer]:
+            - /url: tel:+919650728366
+      - complementary "Studio details" [ref=f14e411]:
+        - paragraph [ref=f14e412]: The studio
+        - generic [ref=f14e413]:
+          - generic [ref=f14e414]:
+            - term [ref=f14e415]: Address
+            - definition [ref=f14e416]: Kand, Dharamshala 176218Kangra · Himachal Pradesh · India
+          - generic [ref=f14e417]:
+            - term [ref=f14e418]: Write
+            - definition [ref=f14e419]:
+              - link "thesoulfrequency11@gmail.com" [ref=f14e420] [cursor=pointer]:
+                - /url: mailto:thesoulfrequency11@gmail.com
+          - generic [ref=f14e421]:
+            - term [ref=f14e422]: Hours
+            - definition [ref=f14e423]: 11:00 – 18:00 · Only by appointment
+          - generic [ref=f14e424]:
+            - term [ref=f14e425]: Follow
+            - definition [ref=f14e426]:
+              - link "Instagram" [ref=f14e427] [cursor=pointer]:
+                - /url: https://www.instagram.com/thesoulfrequency11
+              - text: ·
+              - link "YouTube" [ref=f14e428] [cursor=pointer]:
+                - /url: https://www.youtube.com/@thesoulfrequency11
+  - contentinfo [ref=f14e429]:
+    - generic [ref=f14e430]:
+      - link "Back to top" [ref=f14e431] [cursor=pointer]:
+        - /url: "#top"
+        - generic [ref=f14e437]: The Soul Frequency
+      - paragraph [ref=f14e438]: A private sound sanctuary · Kand · Dharamshala · Himachal Pradesh
+      - paragraph [ref=f14e439]: © 2026 The Soul Frequency. All rights reserved.
+      - paragraph [ref=f14e440]: Sound healing sessions support relaxation, stress reduction, and overall wellbeing. They are not a substitute for medical, psychological, or psychiatric diagnosis or treatment — please consult a qualified healthcare professional for any health concerns.

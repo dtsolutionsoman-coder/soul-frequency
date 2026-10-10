@@ -1,0 +1,83 @@
+- generic [ref=f7e4]:
+  - main [ref=f7e6]:
+    - navigation [ref=f7e13]:
+      - generic [ref=f7e14]:
+        - button "Hamburger Site Navigation Icon" [ref=f7e18] [cursor=pointer]
+        - link [ref=f7e23] [cursor=pointer]:
+          - /url: /
+  - region [ref=f7e27]:
+    - generic [ref=f7e30]:
+      - heading "Menu" [level=1] [ref=f7e31]
+      - generic [ref=f7e37]:
+        - heading "Sound Healing" [level=3] [ref=f7e40]
+        - generic [ref=f7e42]:
+          - generic [ref=f7e45]:
+            - img "Person resting during a sound therapy session with singing bowls." [ref=f7e48]
+            - generic [ref=f7e49]:
+              - heading "Tibetan singing bowl healing" [level=4] [ref=f7e51]
+              - generic [ref=f7e52]: Rs. 1800
+            - generic [ref=f7e54]:
+              - paragraph [ref=f7e55]: 1 Hour
+              - paragraph [ref=f7e56]
+              - paragraph [ref=f7e57]: Ancient grounding vibrations from hand hammered bowls, travel deep into the body. This session supports stress release, emotional stillness, improves sleep, and profound sense of inner stability. Ideal when life feels heavy or scattered.
+          - generic [ref=f7e60]:
+            - img "Close-up of a golden gong with two mallets." [ref=f7e63]
+            - generic [ref=f7e64]:
+              - heading "Sound Bath Immersion" [level=4] [ref=f7e66]
+              - generic [ref=f7e67]: Rs. 2500
+            - generic [ref=f7e69]:
+              - paragraph [ref=f7e70]: 1 Hour
+              - paragraph [ref=f7e71]
+              - paragraph [ref=f7e72]: A collective, deeply personal experience, layered frequencies flow over and through you, allowing the mind to slow the body to rest and emotions to surface and release. Many experience, deep peace, visions, emotions, and a sense of being held by sound.
+          - generic [ref=f7e75]:
+            - img "Hands playing crystal singing bowls with glowing candles." [ref=f7e78]
+            - generic [ref=f7e79]:
+              - heading "Crystal singing bowl healing" [level=4] [ref=f7e81]
+              - generic [ref=f7e82]: Rs. 1800
+            - generic [ref=f7e84]:
+              - paragraph [ref=f7e85]: 1 Hour
+              - paragraph [ref=f7e86]
+              - paragraph [ref=f7e87]: Pure quartz crystal bowl creates luminous high frequency sound waves. That works powerfully on the body. This journey, supports Chakra alignment, emotional clarity, mental calmness, and general expansion of awareness.
+  - region [ref=f7e89]:
+    - img [ref=f7e91]:
+      - heading "Come with openness. Leave with Resonance." [level=2] [ref=f7e100]
+  - region [ref=f7e102]:
+    - generic [ref=f7e109]:
+      - paragraph [ref=f7e110]:
+        - strong [ref=f7e112]: "Disclaimer:"
+      - paragraph [ref=f7e113]: Sound healing sessions are intended to support relaxation, stress reduction, and overall well-being. They are not a substitute for medical, psychological, or psychiatric diagnosis, treatment, or care. No claims are made regarding the diagnosis, treatment, or cure of any medical condition. Please consult a qualified healthcare professional for any health concerns or before making changes to your healthcare routine.
+  - region [ref=f7e115]:
+    - generic [ref=f7e116]:
+      - generic [ref=f7e118]:
+        - heading "Contact Us" [level=2] [ref=f7e123]
+        - generic [ref=f7e126]:
+          - generic [ref=f7e127]:
+            - link "Connect with us on WhatsApp" [ref=f7e128] [cursor=pointer]:
+              - /url: https://wa.me/919650728366
+            - heading "The Soul Frequency" [level=4] [ref=f7e138]
+            - paragraph [ref=f7e139]: Kand, Dharamshala, Kangra Himachal Pradesh, India
+            - paragraph [ref=f7e140]:
+              - link "+91 9650728366" [ref=f7e141] [cursor=pointer]:
+                - /url: tel:+919650728366
+          - generic [ref=f7e143]:
+            - heading "Hours" [level=4] [ref=f7e144]
+            - table [ref=f7e147]:
+              - rowgroup [ref=f7e148]:
+                - row [ref=f7e149] [cursor=pointer]:
+                  - cell [ref=f7e150]:
+                    - paragraph [ref=f7e151]: Open today
+                  - cell [ref=f7e152]:
+                    - paragraph [ref=f7e153]:
+                      - button "11:00 am – 06:00 pm" [ref=f7e154]
+                  - cell [ref=f7e155]:
+                    - paragraph [ref=f7e156]:
+                      - button [ref=f7e157]
+            - paragraph [ref=f7e161]: Only By Appointment
+      - button "Get directions" [ref=f7e165] [cursor=pointer]
+  - contentinfo [ref=f7e173]:
+    - paragraph [ref=f7e181]: Copyright © 2026 thesoulfrequency - All Rights Reserved.
+  - generic [ref=f7e182]:
+    - heading "This website uses cookies." [level=4] [ref=f7e183]
+    - paragraph [ref=f7e185]: We use cookies to analyze website traffic and optimize your website experience. By accepting our use of cookies, your data will be aggregated with all other user data.
+    - link "Accept" [ref=f7e187] [cursor=pointer]:
+      - /url: ""

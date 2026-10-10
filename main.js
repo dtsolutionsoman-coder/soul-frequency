@@ -22,7 +22,7 @@
     var W = 0, H = 0, DPR = 1, CX = 0, CY = 0, RMAX = 0;
 
     var RING_COUNT = 15;
-    var SEGMENTS = 160;
+    var SEGMENTS = 120;
     var TAU = Math.PI * 2;
 
     var pointer = { x: -9999, y: -9999, energy: 0 };
@@ -45,7 +45,7 @@
 
     function seedStars() {
       stars = [];
-      var n = Math.floor((W * H) / 16000);
+      var n = Math.floor((W * H) / 26000);
       for (var i = 0; i < n; i++) {
         stars.push({
           x: Math.random() * W,
@@ -151,10 +151,27 @@
       }
     }
 
+    var lastFrame = 0;
     function loop(t) {
-      pointer.energy += ((pointer.x > -999 ? 1 : 0) - pointer.energy) * 0.04;
+      if (t - lastFrame < 31) { requestAnimationFrame(loop); return; }
+      lastFrame = t;
+      pointer.energy += ((pointer.x > -999 ? 1 : 0) - pointer.energy) * 0.06;
       draw(t);
-      requestAnimationFrame(loop);
+      if (fieldVisible) requestAnimationFrame(loop);
+    }
+
+    /* stop painting when the hero leaves the viewport */
+    var fieldVisible = true;
+    if ("IntersectionObserver" in window) {
+      new IntersectionObserver(function (entries) {
+        var nowVisible = entries[0].isIntersecting;
+        if (nowVisible && !fieldVisible) {
+          fieldVisible = true;
+          requestAnimationFrame(loop);
+        } else {
+          fieldVisible = nowVisible;
+        }
+      }, { threshold: 0 }).observe(canvas);
     }
 
     canvas.parentElement.addEventListener("pointermove", function (e) {

@@ -9,7 +9,6 @@
 
   var reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
   var canHover = window.matchMedia("(hover: hover) and (pointer: fine)").matches;
-  var fieldThemeApply = null; /* canvas repaint hook, set by resonanceField */
 
   /* ------------------------------------------------------------------
      1 · RESONANCE FIELD — gold rings breathing like a struck gong.
@@ -30,20 +29,19 @@
     var strike = { r: 0, alpha: 0.55, active: false };
     var stars = [];
 
-    /* theme palette: dark = night rings in brass; light = deep bronze on ivory */
+    /* palette: deep bronze rings breathing on ivory — morning in the garden */
     var PALETTE = {
-      ring: "198, 161, 91",
-      core: "233, 213, 163",
-      ringBoost: 0,
-      showStars: true,
-      starColor: "#ECE7DC",
+      ring: "82, 63, 26",
+      core: "143, 109, 46",
+      ringBoost: 0.10,
+      showStars: false,
+      starColor: "#8F6D2E",
       auroras: [
-        { x: 0.24, y: 0.2, r: 0.55, c: "107, 91, 158", a: 0.085 },
-        { x: 0.78, y: 0.68, r: 0.5, c: "46, 95, 99", a: 0.075 },
-        { x: 0.5, y: 0.42, r: 0.42, c: "198, 161, 91", a: 0.05 }
+        { x: 0.24, y: 0.2, r: 0.55, c: "107, 91, 158", a: 0.07 },
+        { x: 0.78, y: 0.68, r: 0.5, c: "46, 95, 99", a: 0.06 },
+        { x: 0.5, y: 0.42, r: 0.42, c: "168, 130, 63", a: 0.06 }
       ]
     };
-    var onFieldTheme = null; /* set by theme manager for static redraw */
 
     function resize() {
       var rect = canvas.parentElement.getBoundingClientRect();
@@ -208,59 +206,6 @@
       setTimeout(function () { strike.active = true; }, 500);
       requestAnimationFrame(loop);
     }
-
-    /* live theme switch for the canvas */
-    fieldThemeApply = function (light) {
-      if (light) {
-        PALETTE.ring = "82, 63, 26";
-        PALETTE.core = "143, 109, 46";
-        PALETTE.ringBoost = 0.10;
-        PALETTE.showStars = false;
-        PALETTE.auroras = [
-          { x: 0.24, y: 0.2, r: 0.55, c: "107, 91, 158", a: 0.07 },
-          { x: 0.78, y: 0.68, r: 0.5, c: "46, 95, 99", a: 0.06 },
-          { x: 0.5, y: 0.42, r: 0.42, c: "168, 130, 63", a: 0.06 }
-        ];
-      } else {
-        PALETTE.ring = "198, 161, 91";
-        PALETTE.core = "233, 213, 163";
-        PALETTE.ringBoost = 0;
-        PALETTE.showStars = true;
-        PALETTE.auroras = [
-          { x: 0.24, y: 0.2, r: 0.55, c: "107, 91, 158", a: 0.085 },
-          { x: 0.78, y: 0.68, r: 0.5, c: "46, 95, 99", a: 0.075 },
-          { x: 0.5, y: 0.42, r: 0.42, c: "198, 161, 91", a: 0.05 }
-        ];
-      }
-      if (reduceMotion) draw(0);
-    };
-  }
-
-  /* ------------------------------------------------------------------
-     1b · THEME — dark is the sanctuary at night, light the morning garden
-  ------------------------------------------------------------------ */
-  function themeManager() {
-    var btn = document.getElementById("themeToggle");
-    if (!btn) return;
-
-    function apply(theme, persist) {
-      if (theme === "light") document.documentElement.setAttribute("data-theme", "light");
-      else document.documentElement.removeAttribute("data-theme");
-      btn.setAttribute("aria-pressed", String(theme === "light"));
-      btn.setAttribute("aria-label", theme === "light" ? "Switch to dark mode" : "Switch to light mode");
-      var meta = document.querySelector('meta[name="theme-color"]');
-      if (meta) meta.setAttribute("content", theme === "light" ? "#F5F1E7" : "#05060B");
-      if (persist) { try { localStorage.setItem("tsf-theme", theme); } catch (e) {} }
-      if (fieldThemeApply) fieldThemeApply(theme === "light");
-    }
-
-    var current = document.documentElement.getAttribute("data-theme") === "light" ? "light" : "dark";
-    apply(current, false);
-
-    btn.addEventListener("click", function () {
-      current = current === "light" ? "dark" : "light";
-      apply(current, true);
-    });
   }
 
   /* ------------------------------------------------------------------
@@ -408,7 +353,6 @@
   /* ------------------------------------------------------------------ */
   document.addEventListener("DOMContentLoaded", function () {
     resonanceField();
-    themeManager();
     navState();
     mobileMenu();
     reveals();

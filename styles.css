@@ -57,43 +57,6 @@
    ========================================================================== */
 
 :root {
-  --void: #05060B;
-  --void-rgb: 5, 6, 11;
-  --veil: #0C1020;
-  --deep-bg: #04050A;
-  --brass: #C6A15B;
-  --brass-rgb: 198, 161, 91;
-  --brass-hover: #E9D5A3;
-  --candlelight: #E9D5A3;
-  --moonlight: #ECE7DC;
-  --mist: #8E93A8;
-  --hairline: rgba(198, 161, 91, 0.22);
-  --hairline-dim: rgba(198, 161, 91, 0.12);
-  --ink-on-light: #1A1509;
-  --btn-ink: #05060B;
-  --footer-dim: #7A7F93;
-  --ghost-border: rgba(236, 231, 220, 0.28);
-  --ghost-ink: #ECE7DC;
-  --nav-scrolled-bg: rgba(5, 6, 11, 0.82);
-  --menu-bg: rgba(5, 6, 11, 0.97);
-  --ticker-bg: rgba(12, 16, 32, 0.35);
-  --panel-bg: rgba(5, 6, 11, 0.4);
-  --caption-grad: rgba(5, 6, 11, 0.85);
-  --title-shadow: 0 0 60px rgba(5, 6, 11, 0.9);
-  --hero-veil: radial-gradient(58% 46% at 50% 44%, rgba(5, 6, 11, 0) 0%, rgba(5, 6, 11, 0.1) 46%, rgba(5, 6, 11, 0.72) 100%),
-    linear-gradient(180deg, rgba(5, 6, 11, 0.55) 0%, rgba(5, 6, 11, 0) 22%, rgba(5, 6, 11, 0) 60%, rgba(5, 6, 11, 1) 100%);
-  --reserve-bg: radial-gradient(70% 90% at 78% 18%, #221809 0%, #120D06 46%, #080905 100%);
-  --reserve-glow: radial-gradient(34% 30% at 78% 22%, rgba(198, 161, 91, 0.14), transparent 72%);
-  --aurora-1: rgba(107, 91, 158, 0.10);
-  --aurora-2: rgba(46, 95, 99, 0.08);
-  --aurora-3: rgba(107, 91, 158, 0.10);
-  --frame-filter: var(--frame-filter);
-  --frame-filter-hover: saturate(1) contrast(1.02) brightness(1);
-  color-scheme: dark;
-}
-
-/* ---------- light mode · morning in the garden ---------- */
-[data-theme="light"] {
   --void: #F5F1E7;
   --void-rgb: 245, 241, 231;
   --veil: #ECE6D7;
@@ -106,8 +69,8 @@
   --mist: #6E6A5C;
   --hairline: rgba(143, 109, 46, 0.32);
   --hairline-dim: rgba(143, 109, 46, 0.18);
-  --btn-ink: #F7F3EA;
   --footer-dim: #71695A;
+  --btn-ink: #F7F3EA;
   --ghost-border: rgba(35, 32, 26, 0.26);
   --ghost-ink: #23201A;
   --nav-scrolled-bg: rgba(245, 241, 231, 0.86);
@@ -158,7 +121,7 @@ body {
 img, svg { display: block; }
 a { color: inherit; text-decoration: none; }
 button { font: inherit; color: inherit; background: none; border: 0; cursor: pointer; }
-::selection { background: rgba(198, 161, 91, 0.32); color: #FFF; }
+::selection { background: rgba(143, 109, 46, 0.22); color: #23201A; }
 
 .skip-link {
   position: fixed; top: -100px; left: 16px; z-index: 200;
@@ -258,30 +221,6 @@ p { margin: 0; }
   border: 1px solid var(--ghost-border);
 }
 .btn-ghost:hover { border-color: var(--brass); color: var(--candlelight); }
-
-/* ---------- theme transitions ---------- */
-body, .nav, .ticker, .section-deep, .reserve, .footer, .concierge, .frame, .divide, .mobile-menu {
-  transition-property: background-color, background, color, border-color;
-  transition-duration: 0.6s;
-  transition-timing-function: ease;
-}
-.frame img { will-change: filter; }
-
-/* ---------- theme toggle ---------- */
-.theme-toggle {
-  flex: none;
-  width: 40px; height: 40px;
-  display: grid; place-items: center;
-  border: 1px solid var(--ghost-border);
-  border-radius: 50%;
-  color: var(--brass);
-  transition: border-color 0.4s, color 0.4s, transform 0.6s var(--ease-out);
-}
-.theme-toggle:hover { border-color: var(--brass); transform: rotate(30deg); }
-.theme-toggle svg { width: 16px; height: 16px; }
-.theme-toggle .ico-sun { display: none; }
-[data-theme="light"] .theme-toggle .ico-sun { display: block; }
-[data-theme="light"] .theme-toggle .ico-moon { display: none; }
 
 /* ==========================================================================
    NAV

@@ -605,7 +605,6 @@ section[id] { scroll-margin-top: 84px; }
 .frame {
   margin: 0;
   position: relative;
-  border: 1px solid var(--hairline-dim);
   overflow: hidden;
   background: var(--veil);
 }
